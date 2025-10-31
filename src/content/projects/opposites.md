@@ -1,8 +1,11 @@
 ---
 title: "Opposites"
-date: "2024-12-13"
-excerpt: "A Creative Code project exploring the four forces: Chaos, Order, Dark, and Light."
-image: 'public/images/projects/opposites/thumbnail.jpg'
+date: 2024-12-13
+description: "A Creative Code project exploring the four forces: Chaos, Order, Dark, and Light."
+image: {
+    src: 'public/images/projects/opposites/thumbnail.jpg',
+    alt: 'opposites image'
+    }
 ---
 
 Opposites is a generative art study exploring four universal tensions — Chaos, Order, Dark, and Light.
