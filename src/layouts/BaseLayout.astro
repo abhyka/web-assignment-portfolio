@@ -1,5 +1,5 @@
 ---
-
+import Header from "./Header.astro"
 ---
 
 <html lang="en">
@@ -12,9 +12,11 @@
 		<title>Meddah - There be monsters</title>
 	</head>
 	<body>
+		<header>
+			<Header></Header>
+		</header>
 		<main>
-            <h1>Is it alive?</h1>
-            <h2>Seems so</h2>
+			<slot/>
         </main>
 	</body>
 </html>
