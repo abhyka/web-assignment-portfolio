@@ -1,10 +1,15 @@
 ---
-
+const navLinks = [
+    { name: 'Home', href: '/'},
+    { name: 'About', href: '/about'},
+    { name: 'Projects', href: '/projects'},
+    { name: 'Field Notes', href: '/field-notes'}
+];
 ---
 
-<nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/projects">Projects</a>
-    <a href="/field-notes">Field Notes</a>
+<nav class="nav__container">
+    <a href="/" class="logo__image">Meddah</a>
+    <ul class="nav__list">
+        {navLinks.map((link:any) =>(<li><a href={link.href}>{link.name}</a></li>))}
+    </ul>
 </nav>
