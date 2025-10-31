@@ -1,7 +1,7 @@
 ---
 title: "AI and Future"
-date: "2025-10-25"
-excerpt: "A thought experiment regarding the AIs and future of work"
+date: 2025-10-25
+description: "A thought experiment regarding the AIs and future of work"
 ---
 
 # **Beyond Code: Context Engineering and the Cognitive Architecture of Software**
